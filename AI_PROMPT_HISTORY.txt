@@ -57,3 +57,12 @@ Prompt:
 "Enforce an atomic git commit protocol. For every subsequent file modification, feature addition, refactoring step, or task integration, automatically create focused, conventional git commits (e.g., feat, fix, chore, docs) documenting the specific change to maintain a clean and transparent repository audit trail."
 
 --------------------------------------------------------------------------------
+
+[PROMPT 5]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 19:04:45
+Category: Quality Verification & Git Remote Deployment
+Prompt:
+"Execute runtime acceptance verification on the active development server to confirm that all interactive states, dynamic modals, and responsive layouts function without errors. Following successful verification, link the local Git repository to the remote origin at https://github.com/Sakib669/vecosoft-assign1.git, set the primary branch to main, and push all commits to establish the live remote repository."
+
+--------------------------------------------------------------------------------
