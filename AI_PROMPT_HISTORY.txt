@@ -75,3 +75,12 @@ Prompt:
 "Remove developer assessment badges and candidate metadata from the application header to present a clean, unbranded consumer-facing production interface. Update scenario status tags to intuitive commercial labels ('Active', 'Delayed', 'Dispute', 'Pre-Transit', 'Completed'), verify the build, and push the updated commit to the remote repository."
 
 --------------------------------------------------------------------------------
+
+[PROMPT 7]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 19:45:59
+Category: UI/UX Prototyping & Figma Specification
+Prompt:
+"Generate design specifications, high-fidelity visual assets, and copy-pasteable vector SVG structures for all three required order tracking states (Delayed Order, Delivered but Not Received, and Tracking Not Available Yet). Ensure the designs are structured as 390px x 844px mobile artboards with complete design tokens, typography, and interactive prototype flow annotations ready for direct submission or import into Figma."
+
+--------------------------------------------------------------------------------
