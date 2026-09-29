@@ -1,0 +1,50 @@
+================================================================================
+AI PROMPT HISTORY
+Assessment: Frontend Developer Practical Assessment
+Candidate: Shafiqul Islam Sakib
+Repository: frontend-developer-practical-assessment
+================================================================================
+
+[PROMPT 1]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 18:40:30
+Category: Architecture & Technical Planning
+Prompt:
+"Act as a Principal Frontend Engineer and Architect. I am starting a timed practical assessment comprising 4 frontend tasks to be built using React, TypeScript, and modern styling (Tailwind CSS). 
+1. Propose an optimal modular architecture and component hierarchy to handle all 4 tasks cleanly and scalably within a single cohesive project.
+2. Outline a time-budgeted execution strategy, risk mitigation, and best practices for maintainability, type safety, accessibility, and state management.
+3. Recommend utility libraries for UI components, icons, and styling that ensure high polish and responsive design with minimal configuration overhead."
+
+--------------------------------------------------------------------------------
+
+[PROMPT 2]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 18:52:05
+Category: Professional-Grade Engineering & Edge Case Strategy
+Prompt:
+"Formulate an enterprise-grade architectural blueprint for delivering this 4-task frontend assessment as a production-ready product. 
+Detail an exhaustive strategy covering:
+1. Application Shell & Routing: Design a unified workspace supporting multi-task navigation, status indicators, and state isolation.
+2. Edge Case Matrix: Define handling for empty states, asynchronous loading skeletons, input sanitization, boundaries/error handling, and zero-state UX.
+3. Resilience & Accessibility: Guarantee semantic HTML, WCAG 2.1 AA keyboard navigation, contrast ratios, and responsive breakpoints (mobile to ultra-wide).
+4. Code Cleanliness & Architecture: Establish a strict separation of concerns (presentation, business hooks, mock API layer, types) to make the code instantly readable and defensible in technical review."
+
+--------------------------------------------------------------------------------
+
+[PROMPT 3]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 18:53:32
+Category: Feature Implementation - E-Commerce Mobile Order Tracking Screen
+Prompt:
+"Design and implement a modern, production-grade mobile Order Tracking screen (optimized for 360px–430px viewports with a responsive desktop preview simulator) solving ambiguity in legacy delivery status tracking.
+Key Requirements:
+1. Clear Visual Delivery Timeline: Multi-step interactive milestone progression displaying timestamps, current transit location, carrier info, and pulsing active states.
+2. Handling Mandatory Critical Scenarios:
+   - Delayed Order: Highlighted delay alert banner, updated realistic ETA, explanation, and an immediate 'Expedite Inquiry' or 'Reschedule' action.
+   - Delivered but Not Received: Dedicated interactive dispute flow ('Package Missing' claim modal, proof of delivery photo check, immediate support escalation).
+   - Tracking Not Available Yet: Graceful pre-fulfillment state detailing warehouse packaging progress, estimated dispatch countdown, and 'Notify Me' action without broken UI.
+   - Standard In-Transit & Delivered states for full lifecycle evaluation.
+3. Core E-Commerce Features: Order & item summary breakdown with pricing, copyable tracking ID with visual feedback, carrier details, and interactive support drawer.
+4. Technical Excellence: React, TypeScript, Tailwind CSS, Lucide icons, smooth micro-interactions, skeleton loading state, and accessible semantic markup."
+
+--------------------------------------------------------------------------------
