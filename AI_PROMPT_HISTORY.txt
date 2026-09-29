@@ -66,3 +66,12 @@ Prompt:
 "Execute runtime acceptance verification on the active development server to confirm that all interactive states, dynamic modals, and responsive layouts function without errors. Following successful verification, link the local Git repository to the remote origin at https://github.com/Sakib669/vecosoft-assign1.git, set the primary branch to main, and push all commits to establish the live remote repository."
 
 --------------------------------------------------------------------------------
+
+[PROMPT 6]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 19:07:33
+Category: UI Refinement & Production Neutrality
+Prompt:
+"Remove developer assessment badges and candidate metadata from the application header to present a clean, unbranded consumer-facing production interface. Update scenario status tags to intuitive commercial labels ('Active', 'Delayed', 'Dispute', 'Pre-Transit', 'Completed'), verify the build, and push the updated commit to the remote repository."
+
+--------------------------------------------------------------------------------

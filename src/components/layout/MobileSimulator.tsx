@@ -35,11 +35,11 @@ export const MobileSimulator: React.FC<MobileSimulatorProps> = ({
   const [viewMode, setViewMode] = useState<'mobile' | 'fluid'>('mobile');
 
   const scenarios: { id: OrderScenario; label: string; icon: React.FC<{ className?: string }>; tag: string }[] = [
-    { id: 'out_for_delivery', label: '1. Out for Delivery', icon: Truck, tag: 'Standard' },
-    { id: 'delayed', label: '2. Delayed Order', icon: AlertTriangle, tag: 'Requirement 1' },
-    { id: 'delivered_not_received', label: '3. Delivered Not Received', icon: AlertTriangle, tag: 'Requirement 2' },
-    { id: 'tracking_not_available', label: '4. Tracking Not Available', icon: Clock, tag: 'Requirement 3' },
-    { id: 'delivered', label: '5. Delivered Clean', icon: PackageCheck, tag: 'Complete' },
+    { id: 'out_for_delivery', label: 'Out for Delivery', icon: Truck, tag: 'Active' },
+    { id: 'delayed', label: 'Delayed Order', icon: AlertTriangle, tag: 'Delayed' },
+    { id: 'delivered_not_received', label: 'Delivered Not Received', icon: AlertTriangle, tag: 'Dispute' },
+    { id: 'tracking_not_available', label: 'Tracking Pending', icon: Clock, tag: 'Pre-Transit' },
+    { id: 'delivered', label: 'Delivered', icon: PackageCheck, tag: 'Completed' },
   ];
 
   return (
@@ -47,20 +47,15 @@ export const MobileSimulator: React.FC<MobileSimulatorProps> = ({
       {/* Top Reviewer Control Bar */}
       <header className="bg-slate-950/90 border-b border-slate-800 sticky top-0 z-40 backdrop-blur-md px-4 py-3">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-4">
-          {/* Brand & Project Info */}
+          {/* Brand & App Info */}
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-xl bg-indigo-600 flex items-center justify-center font-bold text-white shadow-md">
               ST
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h1 className="text-sm font-bold text-white tracking-tight">SwiftTrack E-Commerce</h1>
-                <span className="text-[10px] uppercase font-bold bg-indigo-900/80 text-indigo-300 border border-indigo-700/60 px-2 py-0.5 rounded-full">
-                  Interactive Evaluation Bar
-                </span>
-              </div>
+              <h1 className="text-sm font-bold text-white tracking-tight">SwiftTrack E-Commerce</h1>
               <p className="text-[11px] text-slate-400">
-                Candidate: <span className="text-slate-200 font-medium">Shafiqul Islam Sakib</span> · 360–430px Mobile Assessment
+                Live Order Tracking & Delivery Management
               </p>
             </div>
           </div>
