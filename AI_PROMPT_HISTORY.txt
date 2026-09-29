@@ -48,3 +48,12 @@ Key Requirements:
 4. Technical Excellence: React, TypeScript, Tailwind CSS, Lucide icons, smooth micro-interactions, skeleton loading state, and accessible semantic markup."
 
 --------------------------------------------------------------------------------
+
+[PROMPT 4]
+Tool: AI Coding Assistant (Gemini / Claude)
+Timestamp: 2026-09-29 19:01:36
+Category: Version Control & Git Strategy
+Prompt:
+"Enforce an atomic git commit protocol. For every subsequent file modification, feature addition, refactoring step, or task integration, automatically create focused, conventional git commits (e.g., feat, fix, chore, docs) documenting the specific change to maintain a clean and transparent repository audit trail."
+
+--------------------------------------------------------------------------------
