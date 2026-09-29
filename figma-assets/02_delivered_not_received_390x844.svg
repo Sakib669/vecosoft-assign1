@@ -1,0 +1,139 @@
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="390" height="844" rx="40" fill="#F8FAFC" />
+  <rect width="390" height="844" rx="40" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- iOS Status Bar -->
+  <text x="32" y="32" font-size="14" font-weight="600" fill="#0F172A">9:41</text>
+  <!-- Dynamic Island -->
+  <rect x="135" y="14" width="120" height="28" rx="14" fill="#0F172A" />
+  <!-- Signal, Wifi, Battery -->
+  <g transform="translate(325, 20)" fill="#0F172A">
+    <rect x="0" y="7" width="3" height="5" rx="0.5" />
+    <rect x="4" y="5" width="3" height="7" rx="0.5" />
+    <rect x="8" y="3" width="3" height="9" rx="0.5" />
+    <rect x="12" y="1" width="3" height="11" rx="0.5" />
+    <path d="M22 2C20.5 2 19 2.5 18 3.5L22 8L26 3.5C25 2.5 23.5 2 22 2Z" />
+    <rect x="30" y="1" width="20" height="11" rx="3" stroke="#0F172A" stroke-width="1.5" fill="none" />
+    <rect x="32" y="3" width="13" height="7" rx="1.5" fill="#0F172A" />
+  </g>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="0" y="50" width="390" height="48" fill="#FFFFFF" />
+  <path d="M24 74L17 67L24 60" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="195" y="70" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle" letter-spacing="0.5">TRACK PACKAGE</text>
+  <text x="195" y="84" font-size="10" font-weight="500" fill="#64748B" text-anchor="middle">DISPUTE RESOLUTION</text>
+  <circle cx="366" cy="67" r="14" fill="#FEE2E2" />
+  <text x="366" y="72" font-size="13" font-weight="700" fill="#DC2626" text-anchor="middle">!</text>
+  <line x1="0" y1="98" x2="390" y2="98" stroke="#E2E8F0" />
+
+  <!-- 1. Hero Delivery Status Card -->
+  <g transform="translate(16, 110)">
+    <rect width="358" height="180" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+    <rect width="358" height="4" rx="2" fill="#F43F5E" />
+    
+    <!-- Order ID -->
+    <text x="16" y="28" font-size="11" font-weight="500" fill="#64748B">Order ID: <tspan font-weight="700" font-family="monospace" fill="#1E293B">ORD-90231-US</tspan></text>
+    
+    <!-- Status Badge -->
+    <rect x="204" y="14" width="138" height="22" rx="11" fill="#FFE4E6" stroke="#FECDD3" />
+    <circle cx="216" cy="25" r="3" fill="#E11D48" />
+    <text x="226" y="29" font-size="10" font-weight="700" fill="#9F1239">DELIVERY DISPUTE OPEN</text>
+
+    <!-- Headline ETA -->
+    <text x="16" y="62" font-size="10" font-weight="700" fill="#64748B" letter-spacing="0.5">CARRIER MARKED AS DELIVERED</text>
+    <text x="16" y="92" font-size="22" font-weight="700" fill="#0F172A">Oct 24 at 1:42 PM</text>
+    <text x="16" y="112" font-size="11" font-weight="400" fill="#475569">Marked delivered 2 hours ago. Recipient flagged as unreceived.</text>
+
+    <!-- Progress Gauge -->
+    <text x="16" y="142" font-size="10" font-weight="600" fill="#64748B">Resolution Workflow</text>
+    <text x="342" y="142" font-size="10" font-weight="700" fill="#E11D48" text-anchor="end">Action Required</text>
+    <rect x="16" y="150" width="326" height="8" rx="4" fill="#F1F5F9" />
+    <rect x="16" y="150" width="326" height="8" rx="4" fill="#F43F5E" />
+  </g>
+
+  <!-- 2. Situational Banner: Delivered But Not Received -->
+  <g transform="translate(16, 302)">
+    <rect width="358" height="174" rx="16" fill="#FFF1F2" stroke="#FECDD3" />
+    
+    <rect x="14" y="14" width="32" height="32" rx="10" fill="#FECDD3" />
+    <text x="30" y="35" font-size="16" font-weight="700" fill="#9F1239" text-anchor="middle">🚨</text>
+    
+    <text x="56" y="27" font-size="13" font-weight="700" fill="#881337">Cannot Find Your Package?</text>
+    <text x="56" y="44" font-size="11" font-weight="400" fill="#9F1239">Carrier scanned parcel at doorstep. Follow quick resolution steps:</text>
+
+    <!-- Action Row 1: Drop Photo -->
+    <g transform="translate(14, 58)">
+      <rect width="330" height="42" rx="10" fill="#FFFFFF" stroke="#FFE4E6" />
+      <text x="12" y="18" font-size="11" font-weight="700" fill="#1E293B">1. Carrier Drop Photo</text>
+      <text x="12" y="32" font-size="10" font-weight="400" fill="#64748B">Driver snapped photo at front porch planter</text>
+      <rect x="238" y="8" width="80" height="26" rx="6" fill="#FFE4E6" />
+      <text x="278" y="25" font-size="10" font-weight="700" fill="#9F1239" text-anchor="middle">📷 Inspect</text>
+    </g>
+
+    <!-- Action Row 2: Lost Claim -->
+    <g transform="translate(14, 106)">
+      <rect width="330" height="42" rx="10" fill="#FFFFFF" stroke="#FFE4E6" />
+      <text x="12" y="18" font-size="11" font-weight="700" fill="#1E293B">2. File Missing Parcel Claim</text>
+      <text x="12" y="32" font-size="10" font-weight="400" fill="#64748B">Guaranteed 24-hr replacement or refund</text>
+      <rect x="238" y="8" width="80" height="26" rx="6" fill="#E11D48" />
+      <text x="278" y="25" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">File Claim</text>
+    </g>
+
+    <!-- Bottom link -->
+    <text x="16" y="162" font-size="10" font-weight="500" fill="#64748B">Need urgent assistance?</text>
+    <text x="342" y="162" font-size="10" font-weight="700" fill="#E11D48" text-anchor="end">Live Agent Dispatcher →</text>
+  </g>
+
+  <!-- 3. Delivery Milestones Timeline -->
+  <g transform="translate(16, 488)">
+    <rect width="358" height="200" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+    
+    <text x="16" y="28" font-size="13" font-weight="700" fill="#0F172A">Delivery Milestones</text>
+    <text x="16" y="42" font-size="10" font-weight="500" fill="#64748B">Carrier audit log</text>
+
+    <line x1="28" y1="68" x2="28" y2="175" stroke="#CBD5E1" stroke-width="2" />
+
+    <!-- Step 1 -->
+    <circle cx="28" cy="68" r="9" fill="#D1FAE5" stroke="#10B981" stroke-width="2" />
+    <text x="28" y="72" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">✓</text>
+    <text x="46" y="66" font-size="11" font-weight="600" fill="#1E293B">Out for Delivery</text>
+    <text x="342" y="66" font-size="10" font-family="monospace" fill="#64748B" text-anchor="end">Oct 24, 09:05 AM</text>
+    <text x="46" y="79" font-size="10" font-weight="400" fill="#64748B">Courier loaded shipment</text>
+
+    <!-- Step 2 -->
+    <circle cx="28" cy="112" r="9" fill="#D1FAE5" stroke="#10B981" stroke-width="2" />
+    <text x="28" y="116" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">✓</text>
+    <text x="46" y="110" font-size="11" font-weight="600" fill="#1E293B">Marked Delivered by Driver</text>
+    <text x="342" y="110" font-size="10" font-family="monospace" fill="#64748B" text-anchor="end">Oct 24, 01:42 PM</text>
+    <text x="46" y="123" font-size="10" font-weight="400" fill="#64748B">Driver scanned package at porch steps</text>
+
+    <!-- Step 3: Investigation Alert -->
+    <circle cx="28" cy="160" r="11" fill="#E11D48" />
+    <text x="28" y="164" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">!</text>
+    <text x="46" y="156" font-size="11" font-weight="700" fill="#9F1239">Investigation Open: Missing Parcel</text>
+    <text x="342" y="156" font-size="10" font-family="monospace" fill="#E11D48" text-anchor="end">Case #DSP-8820</text>
+    <text x="46" y="170" font-size="10" font-weight="500" fill="#881337">Last-mile carrier GPS scan underway</text>
+  </g>
+
+  <!-- 4. Carrier Snippet -->
+  <g transform="translate(16, 700)">
+    <rect width="358" height="64" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+    <rect x="12" y="13" width="38" height="38" rx="10" fill="#F1F5F9" />
+    <text x="31" y="37" font-size="18" text-anchor="middle">📦</text>
+    <text x="60" y="29" font-size="12" font-weight="700" fill="#0F172A">OnTrac Last-Mile Delivery</text>
+    <text x="60" y="43" font-size="10" font-family="monospace" fill="#64748B">ONT-5521-9988-12 • Driver: Carlos M.</text>
+  </g>
+
+  <!-- Bottom Floating CTA -->
+  <rect x="0" y="776" width="390" height="68" fill="#FFFFFF" stroke="#E2E8F0" />
+  <rect x="16" y="788" width="358" height="44" rx="12" fill="#E11D48" />
+  <text x="195" y="815" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Open Immediate Dispute &amp; Refund Flow</text>
+</svg>
